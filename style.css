@@ -25,8 +25,12 @@ body{
     color: rgba(10, 56, 113, 1);
 }
 
-.campo-texto textarea:active{
-    border: none;
+::placeholder{
+    color: #0A3871;
+}
+
+.campo-texto textarea:focus{
+    outline: none;
 }
 
 .bloque-resultado{
